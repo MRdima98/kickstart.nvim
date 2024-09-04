@@ -1,5 +1,8 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
+--
+-- Set to true if you have a Nerd Font installed and selected in the terminal
+vim.g.have_nerd_font = true
 
 -- Make cool number
 vim.opt.number = true
@@ -57,3 +60,11 @@ vim.opt.undodir = os.getenv 'HOME' .. '/.vim/undodir'
 vim.opt.undofile = true
 
 vim.opt.colorcolumn = '80'
+
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
+vim.opt.spelllang = 'en_us'
+vim.opt.spell = true
